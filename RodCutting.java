@@ -7,7 +7,7 @@ public class RodCutting {
   public int rodCuttingRecur(int rodLength, int[] lengthPrices) {
     	  int[] r = new int[rodLength + 1];
 	      for (int i = 0; i <= rodLength; i++) {
-          r[i] = -1;
+          	r[i] = -1;
 	      }
     return rodCuttingAux(lengthPrices, rodLength, r);
   }
