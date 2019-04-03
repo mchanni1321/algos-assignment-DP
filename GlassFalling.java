@@ -7,8 +7,8 @@ public class GlassFalling {
   public int glassFallingRecur(int floors, int sheets) {
     // Fill in here and change the return
       if (floors == 1 || floors == 0) {
-		    return floors;
-	    }
+	return floors;
+	}
 	    if (sheets == 1) {
 		    return floors;
 	    }
